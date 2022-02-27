@@ -1,0 +1,95 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+
+    background: #1d1d1d;
+}
+
+.cabecalhoPrincipal {
+
+    padding: 6.2rem 63.458rem 0 12rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.listaRedesSociais {
+    display: flex;
+    align-items: center;
+}
+
+.logoRedeSocial {
+    margin-right: 2.356rem;
+}
+
+.logo {
+
+    display: flex;
+    align-items: center;
+}
+
+.imagemLogo {
+
+    margin-right: 2.141rem;
+}
+
+.tituloLogo {
+
+    color: #FFFFFF;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 2.56413rem;
+    font-weight: 500;
+    line-height: 3.013rem;
+}
+
+.textoApresentacao {
+    padding: 18.335rem 76.1rem 26rem 12rem;
+}
+
+.tituloMain {
+
+    color: #D2D2D2;
+    font-family: 'Overpass', sans-serif;
+    font-size: 4.8rem;
+    font-weight: 700;
+    line-height: 6.077rem;
+    padding-bottom: 1.6rem;
+}
+
+.textoMain {
+
+    color: #A9A9A9;
+    font-family: 'Overpass', sans-serif;
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 3.038rem;
+    padding-bottom: 6.9rem;
+}
+
+.botao {
+
+    color: #FFFFFF;
+    font-family: 'Overpass', sans-serif;
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 3.038rem;
+    border: none;
+    background: #27AE60;
+    border-radius: 2.5rem;
+    padding: 1.4rem 5.7rem;
+    margin-bottom: 1.3rem;
+}
+
+.areaBotao {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.barraBotao {
+    width: 6.95rem;
+    border: 0.2rem solid #27AE60;
+    border-radius: 0.5rem;
+}
