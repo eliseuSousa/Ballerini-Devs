@@ -43,6 +43,12 @@ body {
     line-height: 3.013rem;
 }
 
+.conteudoPrincipal {
+
+    background: url('./image/background/blobs_meio.svg') no-repeat left center, url('./image/background/blobs_baixo.svg') no-repeat left bottom, url('./programador_main.svg') no-repeat right center;
+
+}
+
 .textoApresentacao {
     padding: 18.335rem 76.1rem 26rem 12rem;
 }
