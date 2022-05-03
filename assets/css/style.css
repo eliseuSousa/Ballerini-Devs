@@ -1,14 +1,22 @@
+:root {
+    --black: #1d1d1d;
+    --light-grey: #A9A9A9;
+    --green: #27AE60;
+    --very-light-grey: #D2D2D2;
+    --white: #FFFFFF;
+    --hover-button: #68bf8c;
+}
+
 html {
     font-size: 62.5%;
+    font-family: 'Overpass', sans-serif;
 }
 
 body {
-
-    background: #1d1d1d;
+    background: var(--black);
 }
 
 .cabecalhoPrincipal {
-
     padding: 6.2rem 63.458rem 0 12rem;
     display: flex;
     justify-content: space-between;
@@ -30,13 +38,11 @@ body {
 }
 
 .imagemLogo {
-
     margin-right: 2.141rem;
 }
 
 .tituloLogo {
-
-    color: #FFFFFF;
+    color: var(--white);
     font-family: 'Maven Pro', sans-serif;
     font-size: 2.56413rem;
     font-weight: 500;
@@ -44,8 +50,7 @@ body {
 }
 
 .conteudoPrincipal {
-
-    background: url('./image/background/blobs_meio.svg') no-repeat left center, url('./image/background/blobs_baixo.svg') no-repeat left bottom, url('./programador_main.svg') no-repeat right center;
+    background: url('../image/background/blobs_meio.svg') no-repeat left center, url('../image/background/blobs_baixo.svg') no-repeat left bottom, url('../image/background/programador_main.svg') no-repeat right center;
 
 }
 
@@ -54,9 +59,7 @@ body {
 }
 
 .tituloMain {
-
-    color: #D2D2D2;
-    font-family: 'Overpass', sans-serif;
+    color: var(--very-light-grey);
     font-size: 4.8rem;
     font-weight: 700;
     line-height: 6.077rem;
@@ -64,9 +67,7 @@ body {
 }
 
 .textoMain {
-
-    color: #A9A9A9;
-    font-family: 'Overpass', sans-serif;
+    color: var(--light-grey);
     font-size: 2.4rem;
     font-weight: 400;
     line-height: 3.038rem;
@@ -74,21 +75,24 @@ body {
 }
 
 .botao {
-
-    color: #FFFFFF;
-    font-family: 'Overpass', sans-serif;
+    color: var(--white);
     font-size: 2.4rem;
     font-weight: 600;
     line-height: 3.038rem;
     border: none;
-    background: #27AE60;
+    background: var(--green);
     border-radius: 2.5rem;
     padding: 1.4rem 5.7rem;
     margin-bottom: 1.3rem;
+    transition: all .3s;
+}
+
+.botao:hover {
+    background: var(--hover-button);
+    cursor: pointer;
 }
 
 .areaBotao {
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -96,6 +100,6 @@ body {
 
 .barraBotao {
     width: 6.95rem;
-    border: 0.2rem solid #27AE60;
+    border: 0.2rem solid var(--green);
     border-radius: 0.5rem;
 }
